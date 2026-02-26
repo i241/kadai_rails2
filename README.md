@@ -1,24 +1,22 @@
-# README
+## 概要
+Ruby on Rails を用いて作成したWebアプリケーションです。  
+空きスペースシェアアプリを作成しました。  
+ユーザー登録・ログイン機能を実装し、スペースの投稿から予約まで一連の流れをCRUDベースで構築しました。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 機能
+- ユーザー新規登録 / ログイン / ログアウト
+- マイページ表示
+- 空きスペースの投稿（作成）
+- 空きスペース一覧表示 / 詳細表示
+- 空きスペースの予約機能
 
-Things you may want to cover:
+## 技術スタック
+- Ruby
+- Ruby on Rails
+- SQLite3
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 学んだこと
+- MVCの役割分担
+- コントローラとモデルの責務
+- Railsのディレクトリ構成
+- Gemの導入
